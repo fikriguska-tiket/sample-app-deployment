@@ -8,9 +8,9 @@ spec:
   template:
     spec:
       containers:
-        - name: sleep
-          image: alpine:latest
-          command: ["echo", "pre-sync"]
-        restartPolicy: Never
+      - name: sleep
+        image: alpine:latest
+        command: ["echo", "pre-sync"]
+      restartPolicy: Never
   backoffLimit: 0
 
