@@ -41,8 +41,6 @@ kind: Ingress
 metadata:
   name: basic-ingress
   annotations:
-    kubernetes.io/ingress.class: nginx-internal
-    nginx.ingress.kubernetes.io/backend-protocol: "HTTP"
 spec:
   defaultBackend:
     service:
